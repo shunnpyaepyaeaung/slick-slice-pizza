@@ -1,0 +1,75 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/shunnpyaepyaeaung/Developer/flutter/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/shunnpyaepyaeaung/Library/Caches/Yarn/v6/npm-ansi-regex-5.0.0-388539f55179bf39339c81af30a654d69f87cb75-integrity/node_modules/ansi-regex/index.js' -> '/Users/shunnpyaepyaeaung/Desktop/Projects/slick-slice/sanity/node_modules/eslint/node_modules/ansi-regex/index.js'
+
+npm manifest: 
+  {
+    "name": "slicks-slices-backend",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Wes Bos <wesbos@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "lint": "eslint .",
+      "start": "sanity start"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "eslintConfig": {
+      "extends": [
+        "wesbos"
+      ]
+    },
+    "dependencies": {
+      "@sanity/base": "1.150.7",
+      "@sanity/components": "1.150.7",
+      "@sanity/core": "1.150.7",
+      "@sanity/default-layout": "1.150.7",
+      "@sanity/default-login": "1.150.1",
+      "@sanity/desk-tool": "1.150.7",
+      "@sanity/google-maps-input": "1.150.1",
+      "@sanity/structure": "1.150.1",
+      "@sanity/vision": "1.150.6",
+      "prop-types": "^15.7",
+      "react": "^16.13",
+      "react-dom": "^16.13",
+      "react-icons": "^3.11.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.1.0",
+      "eslint": "^7.8.1",
+      "eslint-config-airbnb": "^18.2.0",
+      "eslint-config-prettier": "^6.11.0",
+      "eslint-config-wesbos": "^1.0.1",
+      "eslint-plugin-html": "^6.1.0",
+      "eslint-plugin-import": "^2.22.0",
+      "eslint-plugin-jsx-a11y": "^6.3.1",
+      "eslint-plugin-prettier": "^3.1.4",
+      "eslint-plugin-react": "^7.20.6",
+      "eslint-plugin-react-hooks": "^4.1.2",
+      "prettier": "^2.1.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
